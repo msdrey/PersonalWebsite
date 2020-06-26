@@ -135,7 +135,12 @@ a:hover {
 
   .featurette-icon {
     margin-bottom: 0.5rem;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
+  }
+
+  .featurette-image {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   
   
