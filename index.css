@@ -1,7 +1,6 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -52,18 +51,12 @@ a:hover {
     overflow: hidden;
     height: 12rem;
     background-color: #777;
-  }
-
-  .innertopsection-index {
-    height: 28rem;
+    height: 38rem;
   }
 
   /* Since positioning the image, we need to help out the caption */
   .caption {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     color: #fff;
   }
 
@@ -94,10 +87,7 @@ a:hover {
   .myBigIcon {
     font-size: 5em;
     color: #303030;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
   }
   
   .sectiontitle {
