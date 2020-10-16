@@ -118,8 +118,12 @@ a:hover {
   /* Featurettes
   ------------------------- */
   
-  .featurette-divider {
+  .featurette-divider-projects {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+
+  .featurette-divider {
+    margin: 2rem 0;
   }
   
   .featurette-heading {
