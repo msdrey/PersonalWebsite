@@ -45,95 +45,91 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">Audrey Morin</a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> 
+            <a class="navbar-brand" href="index.html">Audrey Morin</a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#education">Education</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">Experience</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link-box" href="res/audreymorin_resume.pdf">Resume</a>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link-box" href="res/audreymorin_resume.pdf">Resume</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
 
     <main role="main">
-        <div class="container">
-            <div class="innertopsection d-flex flex-column">
-                <div class="row flex-fill fill d-flex">
+        <!-- START OF TOP SECTION -->
+        <div class="topsection">
+            <div class="container">
+                <div class="row">
                     <div class="col-sm-2"></div>
 
-                    <div class="col-sm-5 d-flex align-self-center">
-                        <div class="caption">
-                            <div class="row">
-                                <h1>Nice to meet you!</h1>
-                            </div>
-                            
-                            <div class="row">
-                                <h5>I am a software developer and mathematician based in Redmond, WA.</h5>
-                            </div>
+                    <div class="col-sm-5 align-self-center">
+                        <div class="row top-section-text">
+                            <h1>Nice to meet you!</h1>
+                        </div>
+                        
+                        <div class="row top-section-text">
+                            <h5>I am a software developer and mathematician based in Redmond, WA.</h5>
+                        </div>
+                        
+                        <div class="row text-center">
+                            <a class="col-sm-3 top-section-links" href="res/audreymorin_resume.pdf">
+                                <i class="top-section-icon fas fa-file-pdf fa-2x" ></i>
 
-                            <div class="row">
-                                <br/>
-                            </div>
-                            
-                            <div class="row">
-                                <a class="col-sm-3 text-center top-section-links" href="res/audreymorin_resume.pdf">
-                                    <i class="top-section-icon fas fa-file-pdf fa-2x" ></i>
+                                <h6>Resume</h6>
+                            </a>
 
-                                    <h6>Resume</h6>
-                                </a>
+                            <a class="col-sm-3 top-section-links" href="https://github.com/msdrey">
+                                <i class="top-section-icon fab fa-github fa-2x"></i>
 
-                                <a class="col-sm-3 text-center top-section-links" href="https://github.com/msdrey">
-                                    <i class="top-section-icon fab fa-github fa-2x"></i>
+                                <h6>Github</h6>
+                            </a>
 
-                                    <h6>Github</h6>
-                                </a>
+                            <a class="col-sm-3 top-section-links" href="https://www.linkedin.com/in/audreymorin3">
+                                <i class="top-section-icon fab fa-linkedin fa-2x"></i>
+                                
+                                <h6>Linked In</h6>
+                            </a>
 
-                                <a class="col-sm-3 text-center top-section-links" href="https://www.linkedin.com/in/audreymorin3">
-                                    <i class="top-section-icon fab fa-linkedin fa-2x"></i>
-                                    <h6>Linked In</h6>
-                                </a>
-
-                                <a class="col-sm-3 text-center top-section-links" href="mailto:audrey.morin.3@gmail.com">
-                                    <i class="top-section-icon fas fa-envelope fa-2x"></i>
-                                    <h6>Email</h6>
-                                </a>
-
-                            </div>
+                            <a class="col-sm-3 top-section-links" href="mailto:audrey.morin.3@gmail.com">
+                                <i class="top-section-icon fas fa-envelope fa-2x"></i>
+                                
+                                <h6>Email</h6>
+                            </a>
                         </div>
                     </div>
 
-                    <div class="col-sm-3 d-flex justify-content-center align-self-center" style="overflow:hidden;">
-                        <img class="myPicture" src="res/amorin.jpg">
+                    <div class="col-sm-3 d-flex">
+                        <img class="top-section-photo" src="res/amorin.jpg">
                     </div>
 
                     <div class="col-sm-2"></div>
                 </div>
             </div>
-        </div> <!-- end of top section -->
-
-        <div class="container myFeaturette">
-            <hr class="featurette-divider">
+        </div>
+        
+        <!-- START OF ICONS SECTION -->
+        <div class="container">
+        <div class="iconssection">
+            <hr class="divider">
 
             <div class="row">
                 <div class="col-lg-4">
@@ -146,7 +142,7 @@
                     </a>
 
                     <a class="btn btn-secondary" href="#projects" role="button">View details &raquo;</a>
-                </div><!-- /.col-lg-4 -->
+                </div>
 
                 <div class="col-lg-4">
                     <a href="#education">
@@ -158,7 +154,7 @@
                     </a>
                     
                     <a class="btn btn-secondary" href="#education" role="button">View details &raquo;</a>
-                </div><!-- /.col-lg-4 -->
+                </div>
 
                 <div class="col-lg-4">
                     <a href="#experience">
@@ -170,11 +166,12 @@
                     </a>
                         
                     <a class="btn btn-secondary" href="#experience" role="button">View details &raquo;</a>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
+                </div>
+            </div>
 
-            <hr id="projects" class="featurette-divider">
-        </div><!-- /.container -->
+            <hr id="projects" class="divider">
+        </div>
+        </div>
 
         <!-- CONTENTS OF SECTIONS -->
         <div id="projectscontent"></div>
@@ -186,6 +183,7 @@
         <!-- FOOTER -->
         <div id="footer"></div>
     </main>
+
 
     <!-- Bootstrap core JavaScript-->
     <!-- Placed at the end of the document so the pages load faster -->
