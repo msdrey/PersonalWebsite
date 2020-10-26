@@ -113,3 +113,7 @@ a:hover {
 .myIcon {
   margin-bottom: 5px;
 }
+
+.bold-project-text {
+  font-weight: 400;
+}
